@@ -30,7 +30,7 @@ nav{
 	text-transform: uppercase;
 }
 
-.main{
+.main1{
 	width: 100%;
 	height: calc(100% - 60px);
 	background: url(../img/boy.png) 90% 100%/auto 85% no-repeat , url(../img/фонменю.png) center/cover no-repeat;
@@ -38,7 +38,7 @@ nav{
 
 .title__container{
 	float: left;
-	margin: 332px 0px 0px 204px;
+	margin: 432px 0px 0px 404px;
 	color: #2c384a;
 	text-align: center;
 }
@@ -66,4 +66,14 @@ nav{
 	margin: 58px 14px 0px 14px;
 }
 
+.main2{
+	height: 100%
+	width: 100%;
+	background: url(../img/fs.png) 100% 100%/auto 85% no-repeat ;
+}
 
+.title_container{
+	float: left;
+	margin: 108px 0px 0px 594px;
+	text-align: center;
+}
