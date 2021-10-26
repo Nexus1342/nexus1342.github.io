@@ -33,7 +33,7 @@ nav{
 .main1{
 	width: 100%;
 	height: calc(100% - 60px);
-	background: url(../img/boy.png) 90% 100%/auto 85% no-repeat , url(../img/фонменю.png) center/cover no-repeat;
+	background: url(../img/boy.png) 90% 100%/auto no-repeat , url(../img/фонменю.png) center/cover no-repeat;
 }
 
 .title__container{
@@ -67,13 +67,25 @@ nav{
 }
 
 .main2{
-	height: 100%
 	width: 100%;
-	background: url(../img/fs.png) 100% 100%/auto 85% no-repeat ;
+	height: 40%;
+	background:url(../img/fs.png) center/100% no-repeat;
 }
 
-.title_container{
+.title_container1{
 	float: left;
-	margin: 108px 0px 0px 594px;
-	text-align: center;
+	text-align:center;
+	margin: 108px 0px 60px 594px;
+	background:  url(../img/chz.png) 760px 60px/auto no-repeat;
 }
+
+.title_container1 h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #263244;
+}
+
+.title_container1 img{
+	margin: 100px 0px 0px 10px;
+}
+
