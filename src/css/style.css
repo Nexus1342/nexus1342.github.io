@@ -33,12 +33,12 @@ nav{
 .main1{
 	width: 100%;
 	height: calc(100% - 60px);
-	background: url(../img/boy.png) 90% 100%/auto no-repeat , url(../img/фонменю.png) center/cover no-repeat;
+	background: url(../img/boy.png) 90% 100%/auto 85% no-repeat , url(../img/фонменю.png) center/cover no-repeat;
 }
 
 .title__container{
 	float: left;
-	margin: 432px 0px 0px 404px;
+	margin: 232px 0px 0px 204px;
 	color: #2c384a;
 	text-align: center;
 }
@@ -68,15 +68,15 @@ nav{
 
 .main2{
 	width: 100%;
-	height: 40%;
-	background:url(../img/fs.png) center/100% no-repeat;
+	height: calc(100% - 120px);
+	background: url(../img/chz.png) 675px 150px/auto 5px  no-repeat , url(../img/fs.png) center/100% no-repeat;
 }
 
 .title_container1{
 	float: left;
 	text-align:center;
-	margin: 108px 0px 60px 594px;
-	background:  url(../img/chz.png) 760px 60px/auto no-repeat;
+	margin: 98px 0px 0px 90px;
+
 }
 
 .title_container1 h2{
@@ -86,6 +86,34 @@ nav{
 }
 
 .title_container1 img{
-	margin: 100px 0px 0px 10px;
+	margin: 50px 0px 0px 10px;
 }
 
+.title_container1 input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 5px;
+	color: #6d7682;
+	font-size: 13px;
+	padding: 0px 16px;
+	margin: 58px 14px 0px 14px;
+
+}
+
+.skill{
+	width: 100%;
+	height: calc(100% - 260px);
+	background: url(../img/chz.png) 675px 150px/auto 5px  no-repeat , url(../img/fon.png) center/100% no-repeat;
+}
+
+.skills{
+	float: left;
+	text-align: center;
+}
+
+.skills h2{
+	font-size: 30px;
+	color: #263244;
+}
