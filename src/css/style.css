@@ -110,12 +110,12 @@ nav{
 	float: left;
 	width: 100%;
 	height: calc(100% - 260px);
-	background: url(../img/chz.png) 680px 120px/auto 5px  no-repeat , url(../img/fon.png) center/100% no-repeat;
+	background: url(../img/chz.png) 628px 120px/auto 5px  no-repeat , url(../img/fon.png) center/100% no-repeat;
 }
 
 .skills{
 	text-align: center;
-	margin: 70px 0px 0px 100px;
+	margin: 70px 0px 0px 0px;
 }
 
 .skills h2{
@@ -127,16 +127,43 @@ nav{
 
 .veb_skills{
 	float: left;
+	width: 310px;
+	margin-top: 70px;
 }
 
 .new_skills{
 	float: left;
+	width: 310px;
+	margin-top: 70px;
 }
 
 .ceo_skills{
 	float: left;
+	width: 310px;
+	margin-top: 70px;
 }
 
 .mark_skills{
 	float: left;
+	width: 310px;
+	margin-top: 70px;
 }
+
+.case{
+	float: left;
+	width: 100%;
+	height: calc(100% - 260px);
+	background: url(../img/chz.png) 625px 120px/auto 5px  no-repeat , url(../img/фотка.png) -100px center/cover no-repeat , url(../img/fcase.png) center/100% no-repeat;
+}
+
+.case_skills{
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.case_skills h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #263244;
+}
+
